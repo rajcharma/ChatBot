@@ -10,13 +10,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"  >
-    <TextView
-        android:id="@+id/tv_receive"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/yang"
-        android:gravity="center"
-        android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/head_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/advisor"/>
+        <TextView
+            android:id="@+id/tv_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yang"
+            android:gravity="center"
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -24,13 +31,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right" >
-    <TextView
-        android:id="@+id/tv_send"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/yangblue"
-        android:gravity="center"
-        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yangblue"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user"/>
+
+
+
+
     </LinearLayout>
 
 

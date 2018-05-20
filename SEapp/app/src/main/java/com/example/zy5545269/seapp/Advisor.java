@@ -1,17 +1,22 @@
 package com.example.zy5545269.seapp;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Advisor {
-    public Advisor(){
+    public static final int TYPE_RECEIVED = 0;
+    public static final int TYPE_SEND = 1;
 
+    private String content;
+    private int type;
+
+    public Advisor(String content, int type) {
+        this.content = content;
+        this.type = type;
     }
 
-    public static List<String> getData()
-    {
-        List<String> list = new ArrayList<String>();
-        list.add("Advisor：" + "Nice to meet you！");
-        return list;
+    public String getContent() {
+        return content;
+    }
+
+    public int getType() {
+        return type;
     }
 }
